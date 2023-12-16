@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Kyiv Region';
+      src: url('../fonts/KyivRegion-Regular.woff') format('woff'),
+         url('../fonts/KyivRegion-Regular.woff2') format('woff2');
+    font-weight: normal; /* Вага шрифту: normal або bold */
+    font-style: normal; /* Стиль шрифту: normal або italic */
+  }
+  
+  @font-face {
+    font-family: 'Kyiv*Type Sans';
+      src: url('../fonts/KyivTypeSans-Regular-.woff') format('woff'),
+         url('../fonts/ KyivTypeSans-Regular-.woff2') format('woff2');
+    font-weight: normal; /* Вага шрифту: normal або bold */
+    font-style: normal; /* Стиль шрифту: normal або italic */
+  }
+  

@@ -1,0 +1,68 @@
+.map {
+  background-image: url(../img/bg-3.png);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  opacity: 0;
+}
+
+.map-but {
+  height: 100%;
+  width: 100%;
+}
+
+.map-img2 {
+  height: 100%;
+  width: 100%;
+}
+
+.map-img {
+  height: 100%;
+}
+
+.map.element-show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.text-map {
+  font-family: "Kyiv Region";
+  color: var(--Brown, #493522);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 148.8%;
+  text-transform: uppercase;
+  justify-content: left;
+  padding-left: 130px;
+  padding-top: 80px;
+}
+
+.text2-map {
+  font-family: "Kyiv*Type Sans";
+  color: var(--Brown, #493522);
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 130px;
+  margin-top: 30px;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.middle {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  margin-right: -10px;
+  position: relative;
+}

@@ -1,0 +1,96 @@
+.product {
+  background: white;
+  position: relative;
+  z-index: 11;
+  justify-content: center;
+  padding-bottom: 180px;
+}
+
+.prod1 {
+  display: flex;
+}
+
+.prod2 {
+  display: flex;
+}
+
+.up {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-pr {
+  font-family: Kyiv Region;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--Brown, #493522);
+}
+
+.r {
+  padding-left: 10px;
+}
+
+.l {
+  padding-right: 10px;
+}
+
+.pr {
+  margin-top: 45px;
+}
+
+.baking-pr {
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+}
+
+.button-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(250, 194, 0, 1);
+  color: rgba(73, 53, 34, 1);
+  text-decoration: none;
+  padding: 16px 48px;
+  border-radius: 67px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.baget-back {
+  text-align: center;
+  position: relative;
+}
+
+.bg-pr {
+  width: 277px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  display: block;
+  margin-top: -150px;
+}
+
+.text-product {
+  font-family: "Kyiv*Type Sans";
+  color: rgba(73, 53, 34, 1);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: -120px;
+  text-transform: uppercase;
+  padding-bottom: 120px;
+}
+
+.back {
+  padding-right: 10px;
+  position: relative;
+}

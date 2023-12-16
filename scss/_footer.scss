@@ -1,0 +1,43 @@
+.down {
+  background-image: url(../img/Rectangle-7.png);
+  background-repeat: no-repeat;
+  height: 205px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  background-size: cover;
+}
+
+.down.element-show {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.logo2 {
+  padding-right: 120px;
+  display: flex;
+  justify-content: left;
+}
+
+.down2 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item1 {
+  font-family: "Kyiv*Type Sans";
+  text-decoration: none;
+  padding-right: 73px;
+  color: var(--Light-Gray, #ece8e2);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding-right: 270px;
+}
+
+.facebook {
+  padding-right: 27px;
+}

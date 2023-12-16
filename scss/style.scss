@@ -1,0 +1,17 @@
+@import "./fonts.css";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0px, 180px;
+}
+
+@import "_header";
+@import "_products";
+@import "_mision";
+@import "_icons";
+@import "_map";
+@import "_footer";
+@import "_media";
