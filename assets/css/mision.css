@@ -1,0 +1,90 @@
+.mision {
+    background-image: url(../img/bg-mis.png);
+    height: 611px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    position: relative;
+    z-index: 12;
+    opacity: 0;
+    width: 100%;
+    display: flex;
+  }
+  
+  .right-mision {
+    width: 80%;
+  }
+  
+  .mision.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  .bg-img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end; /* Corrected 'right' to 'flex-end' */
+  }
+  
+  .text-mison-all {
+    width: 100%;
+  }
+  
+  .text1-mis {
+    font-family: "Kyiv Region"; /* Enclosed font name in quotes */
+    color: var(--Brown, #493522);
+    font-size: 52px;
+    padding-top: 80px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .text2-mis,
+  .text2-mis2 {
+    font-family: "Kyiv*Type Sans";
+    color: var(--Brown, #493522);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .text3-mis,
+  .text3-mis2 {
+    font-family: "Kyiv*Type Sans";
+    color: var(--Brown, #493522);
+    font-size: 20px;
+    padding-top: 16px;
+    font-weight: 350;
+  }
+  
+  .text2-mis2,
+  .text3-mis2 {
+    display: none;
+  }
+  
+  .text4-mis {
+    font-family: "Kyiv*Type Sans";
+    padding-top: 16px;
+    color: var(--Brown, #493522);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .ban {
+    padding-left: 130px;
+  }
+  
+  .kolos-mision {
+    padding-top: 60px;
+  }
+  
+  .kolos-img {
+    width: 341px;
+  }
+  
+  .about-img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
