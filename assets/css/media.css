@@ -96,10 +96,6 @@
     .text1-mis {
       font-size: 47px;
     }
-  
-    .mision {
-      height: 500px;
-    }
   }
   
   @media (max-width: 1080px) {
@@ -121,11 +117,6 @@
     .text1-mis {
       padding-top: 30px;
     }
-  
-    .mision {
-      height: 450px;
-    }
-  
     .about-img {
       height: 100%;
       width: 100%;
@@ -155,11 +146,6 @@
       height: 34px;
       width: 178px;
     }
-  
-    .mision {
-      height: 400px;
-    }
-  
     .map {
       height: 300px;
     }
@@ -181,17 +167,27 @@
   
   @media (max-width: 940px) {
     .about-img {
-      display: none;
+      display: flex;
+      width: 100%;
+      height: 100%;
     }
-  
+
+    .mision {
+      flex-direction: column;
+      height: 785px;
+      justify-self: center;
+    }
+
+    .right-mision {
+      height: 50%;
+      width: 100%;
+    }
+
     .kolos-mision {
       padding-top: 30px;
+      padding-bottom: 30px;
       justify-content: left;
       display: flex;
-    }
-  
-    .right-mision {
-      display: none;
     }
   
     .ban {
@@ -211,8 +207,7 @@
   
   @media (max-width: 915px) {
     .lar2 {
-      margin-top: -680px;
-      height: 100vh;
+      margin-top: -750px;
       justify-content: space-between;
       display: flex;
       display: flex;
@@ -221,6 +216,10 @@
   
     .lar {
       display: none;
+    }
+
+    .up{
+      padding-top: 80px;
     }
   
     .text2-map {
@@ -305,7 +304,7 @@
     }
   
     .text-pr {
-      font-size: 30px;
+      font-size: 35px;
     }
   
     .pr2,
@@ -454,7 +453,7 @@
   
   @media (max-width: 550px) {
     .mision {
-      height: 760px;
+      height: auto;
       flex-direction: column;
     }
   
@@ -524,7 +523,7 @@
     }
   
     .product {
-      padding-bottom: 100px;
+      padding-bottom: 80px;
     }
   
     .icons-bk {
@@ -600,10 +599,6 @@
       height: 430px;
     }
   
-    .mision {
-      height: 720px;
-    }
-  
     .text2-mis,
     .text3-mis,
     .text4-mis {
@@ -654,10 +649,6 @@
       margin-top: -45px;
     }
   
-    .mision {
-      height: 672px;
-    }
-  
     .text1-mis {
       font-size: 28px;
     }
@@ -686,10 +677,6 @@
       font-size: 13px;
       padding-top: 16px;
       font-weight: 350;
-    }
-  
-    .mision {
-      height: 726px;
     }
   
     .f-i {
@@ -746,17 +733,13 @@
       padding-top: 30px;
     }
   
-    .right-mision {
-      height: 40%;
-    }
-  
     .icons-bk {
       padding-top: 80px;
       padding-bottom: 80px;
     }
   
     .up {
-      padding-top: 0px;
+      margin-top: -15%;
     }
   }
   
